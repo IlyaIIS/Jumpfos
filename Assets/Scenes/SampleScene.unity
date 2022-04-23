@@ -1135,15 +1135,12 @@ MonoBehaviour:
   JumpsMaxCount: 2
   crouchSpeed: 0.36
   runningSpeed: 1.36
-  movementSmoothing: 0.05
-  whatIsGround:
+  MovementSmoothing: 0.05
+  WhatIsGround:
     serializedVersion: 2
     m_Bits: 4294967295
-  groundCheck: {fileID: 987692464}
-  ceilingCheck: {fileID: 392363868}
-  crouchDisableCollider: {fileID: 539282844}
+  GroundCheck: {fileID: 987692464}
   Health: 5
-  Animator: {fileID: 0}
 --- !u!1 &603586356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1762,10 +1759,10 @@ MonoBehaviour:
   WhatIsEnemy:
     serializedVersion: 2
     m_Bits: 8
-  rigidbody2D: {fileID: 1286451848}
   ViewOrigin: {fileID: 2088070304}
   RunningSpeed: 1.2
   FistBumpChecker: {fileID: 1402894940}
+  TailBumpChecker: {fileID: 0}
 --- !u!70 &1286451847
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
